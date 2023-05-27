@@ -13,7 +13,7 @@ function App() {
     return (
         <div className="App">
             <NavLink to={'./'}> MAIN </NavLink>
-            <NavLink to={'./login'}> LOGIN </NavLink>
+            <NavLink className={({isActive}) => isActive ? 'ect' : 'def'} to={'./login'}> LOGIN </NavLink>
             <NavLink to={'./profile'}> PROFILE </NavLink>
 
             {/* вложенность*/}

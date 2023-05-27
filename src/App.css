@@ -2,6 +2,15 @@
   padding: 5px;
 }
 
-.active {
-  color: red;
+/*.active {*/
+/*  color: red;*/
+/*}*/
+
+.ect {
+  color: #7cffce;
 }
+
+.def {
+  color: #ff0034;
+}
+
